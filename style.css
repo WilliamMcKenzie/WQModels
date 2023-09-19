@@ -1,0 +1,371 @@
+body {
+
+    --primary: white;
+    --primary-mid: #f1eeee;
+    --primary-dark: #e5e2e2;
+
+    --secondary-light: #6da53c;
+    --secondary: #5b8731;
+    --secondary-mid: #4a6f28;
+    --secondary-dark: #3e5c20;
+
+    --body-font: "Poppins", sans-serif;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    background-color: var(--primary-mid);
+
+    font-family: "Poppins";
+
+    padding: 0;
+    padding-top: 10vh;
+    margin: 0;
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-x: hidden;
+}
+
+.minecraft_background {
+    background: url('https://cdna.artstation.com/p/assets/images/images/016/970/454/large/arthur-jureswski-silva-trtrrtrtrryrhhghghghg0004.jpg?1554163013');
+    background-size: contain;
+    z-index: -1;
+
+    filter: brightness(0.3);
+
+    position: absolute;
+    width: 100vw;
+    height: 80vw;
+    bottom: -40vh;
+}
+
+.navbar {
+    background: linear-gradient(90deg, var(--secondary) 0%, var(--secondary-light) 100%);
+    border-bottom: 5px solid white;
+    box-shadow: 0 0 15px -5px var(--secondary-dark);
+
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar h1 {
+    color: var(--primary);
+
+    font-weight: var(--font-medium);
+}
+
+.showcase_container {
+    background-color: var(--primary);
+
+    height: 60vh;
+    width: 100vw;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom: 10vh solid var(--primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase_arrow {
+    color: var(--primary);
+    background: linear-gradient(90deg, var(--secondary-light) 0%, var(--secondary) 100%);
+    border: none;
+    border-bottom: 4px solid var(--secondary-mid);
+
+    border-radius: 100px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    top: 40%;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    transition: 0.3s;
+}
+
+.showcase_left {
+    left: 10%;
+}
+
+.showcase_left:before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f060";
+}
+
+.showcase_right {
+    right: 10%;
+}
+
+.showcase_right:before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f061";
+}
+
+.showcase {
+    position: relative;
+
+    height: 30vh;
+    width: 25vh;
+    transition: 0.3s;
+}
+
+.showcase:hover {
+    filter: brightness(0.8);
+    margin-bottom: 3vh;
+}
+
+.showcase:hover .showcase_arrow {
+    filter: brightness(1);
+
+    top: 39%;
+    border-bottom: 8px solid var(--secondary-mid);
+}
+
+.showcase_arrow:hover {
+    filter: brightness(1.1) !important;
+
+    top: 39% !important;
+    border-bottom: 10px solid var(--secondary-mid) !important;
+}
+
+.showcase_arrow:active {
+    filter: brightness(0.7) !important;
+
+    top: 40% !important;
+    border-bottom: 0px solid var(--secondary-mid) !important;
+}
+
+.highlighted_showcase {
+    background: url('icons/SoulknightPreview.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+    height: 35vh;
+    width: 45vh;
+    border-radius: 10px;
+
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.highlighted_showcase:hover {
+    margin-bottom: 3vh;
+    filter: brightness(1.2);
+}
+
+.highlighted_showcase h1 {
+    color: white;
+
+    bottom: 0;
+    padding: 20px;
+    z-index: 2;
+
+    position: absolute;
+}
+
+.highlighted_showcase p {
+    color: white;
+
+    bottom: 0;
+    padding: 20px;
+    padding-bottom: 0px;
+    z-index: 2;
+
+    position: absolute;
+}
+
+
+.bottom_gradient {
+    box-shadow: 0 0 80px 60px black;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+
+    position: absolute;
+}
+
+.list {
+    width: 100vw;
+    padding-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list h1 {
+    color: var(--primary);
+    margin: 0;
+    width: 80vw;
+}
+
+.list p {
+    color: var(--primary);
+    width: 80vw;
+}
+
+.inputWrapper {}
+
+.inputWrapper input {
+    width: 100%;
+    height: 3vh;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+
+    border: none;
+}
+
+.list_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_input button {
+    background-color: var(--secondary);
+    color: var(--primary);
+
+    margin: 10px;
+    margin-left: 0;
+    padding: 15px;
+    border-radius: 30px;
+
+    border: 2px solid var(--secondary);
+    font-family: 'Poppins';
+}
+
+.active {
+    background-color: var(--secondary-light) !important;
+    border: 2px solid white !important;
+}
+
+.list_contents {
+    grid-template-columns: 22vw 22vw 22vw 22vw;
+    margin-top: 5vh;
+
+    display: grid;
+    justify-items: center;
+}
+
+.content {
+    width: 20vw;
+    height: 20vw;
+    margin-bottom: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    transition: 0.3s;
+}
+
+.content:hover {
+    filter: brightness(0.7);
+}
+
+.content:hover .preview p {
+    visibility: visible !important;
+}
+
+.openLink:before {
+    font-family: "FontAwesome";
+    font-size: 40px;
+    content: "\f14d";
+}
+
+.openLink {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: fit-content !important;
+}
+
+.preview {
+    height: 12.5vw;
+    width: 20vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.previewBackup {
+    position: absolute;
+    background-color: rgb(205, 205, 205);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: -1 !important;
+}
+
+.text_contents {
+    background-color: var(--primary);
+
+    width: 20vw;
+    height: 7.5vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    position: relative;
+}
+
+.text_contents h1 {
+    color: black;
+
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.text_contents p {
+    color: black;
+
+    margin: 10px;
+    font-size: 0.8vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(20vw - 20px);
+    max-height: 3vw;
+}
+
+.text_contents img {
+    left: 10px;
+    bottom: 10px;
+
+    position: absolute;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url('./fonts/Fontawesome.ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./fonts/Poppins-Regular.ttf');
+}

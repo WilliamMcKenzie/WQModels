@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WQModels</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="minecraft_background"></div>
+    <div class="navbar">
+        <h1>
+            WQModels
+        </h1>
+    </div>
+    <div class="showcase_container">
+        <div class="showcase" id="showcase_left" onclick="scrollShowcaseLeft()" style="background: url('icons/BeePreview.png'); background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;">
+            <button class="showcase_left showcase_arrow"></button>
+        </div>
+        <div class="highlighted_showcase" id="showcase_mid">
+            <h1>Soul Knight</h1>
+            <p>Minecraft bedrock enemy</p>
+            <div class="bottom_gradient"></div>
+        </div>
+        <div class="showcase" id="showcase_right" onclick="scrollShowcaseRight()" style="background: url('icons/KingCrabPreview.png'); background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;">
+            <button class="showcase_right showcase_arrow"></button>
+        </div>
+
+    </div>
+    <div class="list">
+        <div class='list_input'>
+            <h1>My Art</h1>
+            <p>I have been doing pixel art since 2017, professionally since 2019, and 3D Modelling via blockbench in
+                late 2022.</p>
+            <div class="inputWrapper">
+                <input id="search" onChange="updateList()" type="text">
+                <h1></h1>
+            </div>
+            <div>
+                <button class="pixelArtButton active" onclick="switchTag(1)">
+                    Pixel Art
+                </button>
+                <button class="modellingButton active" onclick="switchTag(2)">
+                    3D Models
+                </button>
+            </div>
+        </div>
+        <div class="list_contents">
+
+        </div>
+    </div>
+</body>
+
+</html>
