@@ -205,6 +205,24 @@ var artArr =
     img: "https://cdn.discordapp.com/attachments/824124447052791839/1094391238666489966/2023-04-05_18.38.15.png",
     type: "model",
     background: "MC"
+}, {
+    title: "Camping",
+    disc: "Java Furniture",
+    img: "https://cdn.discordapp.com/attachments/824124447052791839/1079553123368042516/2023-02-26_19.58.14.png",
+    type: "model",
+    background: "MC"
+}, {
+    title: "Indoor Decor",
+    disc: "Java Furniture",
+    img: "https://cdn.discordapp.com/attachments/824124447052791839/1077736955560874244/2023-02-21_19.39.28.png",
+    type: "model",
+    background: "MC"
+}, {
+    title: "Outdoor Decor",
+    disc: "Java Furniture",
+    img: "https://cdn.discordapp.com/attachments/824124447052791839/1074105737715929238/2023-02-11_19.07.37.png",
+    type: "model",
+    background: "MC"
 }]
 
 
