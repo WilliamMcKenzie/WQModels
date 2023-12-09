@@ -223,6 +223,29 @@ var artArr =
     img: "https://cdn.discordapp.com/attachments/824124447052791839/1074105737715929238/2023-02-11_19.07.37.png",
     type: "model",
     background: "MC"
+}, 
+{
+    title: "Camping Render",
+    disc: "Java Furniture",
+    img: "https://cdn.discordapp.com/attachments/1073369050715013220/1183104455005188096/camping_render.png",
+    type: "model",
+    link: "https://sketchfab.com/3d-models/camping-render-fc14646a67aa46919b76733b8a47280e",
+    background: "MC"
+},
+{
+    title: "Desert Render",
+    disc: "Java Furniture",
+    img: "https://cdn.discordapp.com/attachments/1073369050715013220/1183104455286202399/desert_render.png",
+    type: "model",
+    link: "https://sketchfab.com/3d-models/desert-scene-49cc519d2d79498f8c200b378faafa89",
+    background: "MC"
+},
+{
+    title: "Nature scene",
+    disc: "Java Furniture",
+    img: "https://cdn.discordapp.com/attachments/1073369050715013220/1183090121063534714/2023-12-09_12.52.27.png",
+    type: "model",
+    background: "MC"
 }]
 
 
