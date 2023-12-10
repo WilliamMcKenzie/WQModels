@@ -15,6 +15,7 @@ var artArr =
     title: "Soul Knight",
     disc: "Minecraft Bedrock Enemy",
     img: "icons/SoulknightPreview.png",
+    link: "https://sketchfab.com/3d-models/soul-knight-769c27f183b841e39683da6df2cea673",
     type: "model",
     background: true
 }, {
