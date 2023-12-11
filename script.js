@@ -244,7 +244,7 @@ var artArr =
     {
         title: "Nature scene",
         disc: "Java Furniture",
-        img: "https://cdn.discordapp.com/attachments/1073369050715013220/1183090121063534714/2023-12-09_12.52.27.png",
+        img: "https://cdn.discordapp.com/attachments/1183553442627715144/1183739073429512262/2023-12-10_09.33.10.png",
         type: "model",
         background: "MC"
     },
