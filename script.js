@@ -261,7 +261,7 @@ var artArr =
 
 
 
-artArr = shuffle(artArr)
+artArr = artArr.reverse()
 
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
