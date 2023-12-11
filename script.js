@@ -129,7 +129,7 @@ var artArr =
         type: "model",
         background: "MC"
     }, {
-        title: "Potted Plants",
+        title: "Potted Plants [NOT BENCHES]",
         disc: "Java Furniture",
         img: "https://cdn.discordapp.com/attachments/824124447052791839/1126654383485095966/2023-07-06_20.16.47.png",
         type: "model",
